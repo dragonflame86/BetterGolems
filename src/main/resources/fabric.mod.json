@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "better_golems",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Better Golems",
+  "description": "This mod makes golems better!",
   "authors": [
-    "Me!"
+    "dragoncommands (Programmer)",
+    "Ragno (Artist)",
+    "CreeperMagnet_ (Tradition)"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +16,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/better_golems/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.valhalla.bettergolems.BetterGolems"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "better_golems.mixins.json"
   ],
 
   "depends": {
